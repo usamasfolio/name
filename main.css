@@ -35,3 +35,15 @@
   color: #000;
   line-height: 100vh;
   mix-blend-mode: screen; }
+  h2 span {
+    line-height: 16px;
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
